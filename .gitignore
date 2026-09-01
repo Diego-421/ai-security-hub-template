@@ -1,4 +1,27 @@
 
+# Variables de entorno
 .env
 *.env
 infra/.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+backend/venv/
+
+# Node / Frontend (para cuando llegues a la Fase 4)
+node_modules/
+dist/
+.vite/
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
